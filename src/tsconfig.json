@@ -1,0 +1,41 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "mapRoot": "",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noImplicitAny": false,
+    "outDir": "../dist/",
+    "rootDir": ".",
+    "sourceMap": true,
+    "target": "es5",
+    "inlineSources": true
+  },
+  "filesGlob": [
+    "main.ts",
+    "typings.d.ts",
+    "app/**/*.ts",
+    "!app/**/*.spec.ts"
+  ],
+  "files": [
+    "main.ts",
+    "typings.d.ts",
+    "app/+about/about.component.ts",
+    "app/+about/index.ts",
+    "app/+about/shared/index.ts",
+    "app/+dashboard/dashboard.component.ts",
+    "app/+dashboard/index.ts",
+    "app/+dashboard/shared/index.ts",
+    "app/blog-app.component.ts",
+    "app/environment.ts",
+    "app/index.ts",
+    "app/shared/index.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
